@@ -67,7 +67,7 @@
           <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
         </svg>
       </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis neque quos, necessitatibus quam repudiandae consequ</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis neque quos, quam repudiandae consequ</p>
     </section>
    
   <section class="servicio">
@@ -90,7 +90,7 @@
           <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
         </svg>
       </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis neque quos, necessitatibus quam repudiandae consequ</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis neque quos,quam repudiandae consequ</p>
   </section>
     
   <section class="servicio">
@@ -104,41 +104,43 @@
         <line x1="11" y1="15" x2="13" y2="15" />
       </svg>
    </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis neque quos, necessitatibus quam repudiandae consequ</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis neque quos,quam repudiandae consequ</p>
   </section> 
 </div>  
-</main>
 
-  <section>
-    <h2>Contacto</h2>
-    <form>
-      <fieldset>
-        <legend>Contáctanos llenando todos los campos</legend>
+    <section>
+      <h2>Contacto</h2>
 
-        <div>
-          <label>Nombre</label>
-          <input type="text" placeholder="Tu Nombre"/>
+      <form class="formulario">
+        <fieldset>
+          <legend>Contáctanos llenando todos los campos</legend>
 
-        </div>
-        
-        <div>
-          <label>Teléfono</label>
-          <input type="tel" placeholder="Tu Teléfono"/>
-        </div>
+          <div class="contenedor-campos">
+            <div class="campo">
+              <label>Nombre</label>
+              <input class="input-text" type="text" placeholder="Tu Nombre"/>
 
-        <div>
-          <label>Email</label>
-          <input type="email" placeholder="Tu Email"/>        
-        </div>
-        
-        <div>
-          <label>Mensaje</label>
-          <textarea></textarea>        
-        </div>
+            </div>
+            
+            <div class="campo">
+              <label>Teléfono</label>
+              <input class="input-text" type="tel" placeholder="Tu Teléfono"/>
+            </div>
 
-        <div>
-          <input type="submit" value="Enviar"/>
-        </div>
+            <div class="campo">
+              <label>Email</label>
+              <input class="input-text" type="email" placeholder="Tu Email"/>        
+            </div>
+            
+            <div class="campo">              
+              <label>Mensaje</label>
+              <textarea class="input-text"></textarea>        
+            </div>
+          </div> <!-- .contenedor de campos-->
+
+          <div class="alinear-derecha flex">
+            <input class="boton w-100" type="submit" value="Enviar"/>
+          </div>
 
           
 
@@ -147,9 +149,10 @@
     </form>
   </section>
   
-<footer>
-  <p>Todos los derechos reservados Lucas Rodriguez</p>
-</footer>
+</main> 
+    <footer>
+      <p>Todos los derechos reservados Lucas Rodriguez</p>
+    </footer>
  
 
 </body>
